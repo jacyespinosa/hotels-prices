@@ -27,8 +27,3 @@ def login():
 
     submit = driver.find_element_by_xpath('//*[@id="sign-in-button"]')
     submit.click()
-
-
-time.sleep(0.1)
-login()
-
